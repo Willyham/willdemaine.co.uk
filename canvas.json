@@ -1,0 +1,122 @@
+{
+  "pages": [
+    {
+      "id": "page-1",
+      "name": "Option A"
+    },
+    {
+      "id": "page-2",
+      "name": "Other directions"
+    }
+  ],
+  "artboards": [
+    {
+      "file": "Main.dc.html",
+      "title": "Option A · GeoCities '97",
+      "x": 0,
+      "y": 0,
+      "w": 800,
+      "h": 2100,
+      "page": "page-1"
+    },
+    {
+      "file": "Minimal.dc.html",
+      "title": "Option A · minimal",
+      "x": 900,
+      "y": 0,
+      "w": 800,
+      "h": 1150,
+      "page": "page-1"
+    },
+    {
+      "file": "OptionA2.dc.html",
+      "title": "Option A · alt layout (left nav)",
+      "x": 2700,
+      "y": 0,
+      "w": 800,
+      "h": 1250,
+      "page": "page-2"
+    },
+    {
+      "file": "OptionB.dc.html",
+      "title": "Option B · Y2K personal site",
+      "x": 0,
+      "y": 0,
+      "w": 800,
+      "h": 820,
+      "page": "page-2"
+    },
+    {
+      "file": "OptionC.dc.html",
+      "title": "Option C · ~will terminal",
+      "x": 900,
+      "y": 0,
+      "w": 800,
+      "h": 960,
+      "page": "page-2"
+    },
+    {
+      "file": "OptionD.dc.html",
+      "title": "Option D · 2002 pastel blog",
+      "x": 1800,
+      "y": 0,
+      "w": 800,
+      "h": 800,
+      "page": "page-2"
+    }
+  ],
+  "annotations": [
+    {
+      "id": "note-a",
+      "x": 0,
+      "y": -230,
+      "w": 400,
+      "page": "page-1",
+      "text": "OPTION A · GeoCities '97 x Ragnarok Online\nSame starfield build and layout. Small tweaks: the panels are now light RO-style windows (soft blue-grey border, white inner highlight, rounded corners, drop shadow) floating on the night sky; title in a pink-lavender-sky ramp instead of the full rainbow; sparkle-chain dividers instead of rainbow bars; pixel hearts in What's New; soft rounded buttons.\nNo persona copy - square brackets = fill in."
+    },
+    {
+      "id": "note-min",
+      "x": 900,
+      "y": -230,
+      "w": 400,
+      "page": "page-1",
+      "text": "MINIMAL VERSION\nSame starfield, title and window style, cut to what a visitor actually needs: a one-line intro, the four projects with one button each, four links, and counter + guestbook + e-mail on a single footer line.\nDropped: marquee, nav buttons, under-construction banner, About Me, What's New, the midi bar, webring, badges, bookmark line. About half the height."
+    },
+    {
+      "id": "note-a2",
+      "x": 2700,
+      "y": -190,
+      "w": 380,
+      "page": "page-2",
+      "text": "ALT LAYOUT · left navigation column\nKept for reference; the centered layout was chosen."
+    },
+    {
+      "id": "note-b",
+      "x": 0,
+      "y": -190,
+      "w": 380,
+      "page": "page-2",
+      "text": "OPTION B · Y2K personal site (c. 2001)\nSilver header bar, dark-blue nav strip, Verdana 11px, left news column, bordered project table with versions and languages, validator badges."
+    },
+    {
+      "id": "note-c",
+      "x": 900,
+      "y": -190,
+      "w": 380,
+      "page": "page-2",
+      "text": "OPTION C · ~will terminal (c. 1999)\nBlack, green Courier, ASCII banner, Apache-style 'Index of' directory listing, cat status.txt, blinking cursor."
+    },
+    {
+      "id": "note-d",
+      "x": 1800,
+      "y": -190,
+      "w": 380,
+      "page": "page-2",
+      "text": "OPTION D · 2002 pastel blog\nDotted pink tile, gradient banner, dotted borders, Tahoma 11px, 'currently' block, blinkies, lowercase everything."
+    }
+  ],
+  "launch": {
+    "view": "canvas",
+    "page": "page-1"
+  }
+}

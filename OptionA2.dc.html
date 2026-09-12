@@ -1,0 +1,138 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <style>
+    body { margin: 0; background-color: #000000; background-image: radial-gradient(circle, #ffffff 1px, transparent 1.7px), radial-gradient(circle, #d6ddff 0.8px, transparent 1.3px), radial-gradient(circle, #ffffff 0.5px, transparent 1px); background-size: 113px 97px, 79px 67px, 53px 41px; background-position: 0 0, 37px 23px, 11px 51px; color: #ffff00; font-family: "Times New Roman", Times, serif; font-size: 16px; }
+    a { color: #00ffff; } a:visited { color: #ff00ff; } a:hover { color: #ffffff; }
+    @keyframes marquee { from { transform: translateX(100%); } to { transform: translateX(-100%); } }
+    @keyframes blink { 50% { opacity: 0; } }
+    .blink { animation: blink 1s step-end infinite; }
+    .marquee-track { display: inline-block; white-space: nowrap; animation: marquee 16s linear infinite; }
+    .navbtn { display: block; background: #c0c0c0; color: #000000; border: 2px outset #e8e8e8; box-shadow: 1px 1px 0 #000000; font-family: Arial, Helvetica, sans-serif; font-size: 13px; font-weight: bold; padding: 5px 8px; text-decoration: none; text-align: center; }
+    .navbtn:visited { color: #000000; } .navbtn:hover { color: #000080; background: #d8d8d8; }
+    .btn95 { background: #c0c0c0; color: #000000; border: 2px outset #e8e8e8; box-shadow: 1px 1px 0 #000000; font-family: Arial, Helvetica, sans-serif; font-size: 11px; font-weight: bold; padding: 2px 8px; text-decoration: none; white-space: nowrap; }
+    .btn95:visited { color: #000000; } .btn95:hover { color: #000080; background: #d8d8d8; }
+  </style>
+</helmet>
+<div style="width: 800px; min-height: 1250px; box-sizing: border-box; padding: 18px 20px 36px 20px; display: flex; flex-direction: column; align-items: center; gap: 16px; background-color: #000000; background-image: radial-gradient(circle, #ffffff 1px, transparent 1.7px), radial-gradient(circle, #d6ddff 0.8px, transparent 1.3px), radial-gradient(circle, #ffffff 0.5px, transparent 1px); background-size: 113px 97px, 79px 67px, 53px 41px; background-position: 0 0, 37px 23px, 11px 51px;">
+
+  <div style="text-align: center; font-family: 'Comic Sans MS', 'Comic Sans', cursive; font-size: 46px; font-weight: bold; line-height: 1.1; text-shadow: 4px 4px 0 #800080; letter-spacing: 1px;"><span style="color: #ff0000;">W</span><span style="color: #ff8800;">i</span><span style="color: #ffff00;">l</span><span style="color: #00ff00;">l</span><span style="color: #00ffff;">'</span><span style="color: #3366ff;">s</span> <span style="color: #ff00ff;">H</span><span style="color: #ff0000;">o</span><span style="color: #ff8800;">m</span><span style="color: #ffff00;">e</span><span style="color: #00ff00;">p</span><span style="color: #00ffff;">a</span><span style="color: #3366ff;">g</span><span style="color: #ff00ff;">e</span><span style="color: #ff0000;">!</span><span style="color: #ffff00;">!</span><span style="color: #00ff00;">!</span></div>
+
+  <div style="width: 100%; overflow: hidden; background: #000080; border: 2px inset #c0c0c0; color: #ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: bold; padding: 4px 0; text-align: center;"><div class="marquee-track">*** Welcome to my little corner of the World Wide Web!!! *** Sign my guestbook!!! *** ALWAYS under construction!!! ***</div></div>
+
+  <div style="width: 100%; display: grid; grid-template-columns: 170px minmax(0, 1fr); gap: 16px; align-items: start;">
+
+    <div style="display: flex; flex-direction: column; gap: 14px;">
+      <div style="background: #c0c0c0; border: 3px outset #e8e8e8; padding: 8px; display: flex; flex-direction: column; gap: 6px;">
+        <div style="font-family: Arial, sans-serif; font-size: 11px; font-weight: bold; color: #000080; text-align: center; letter-spacing: 1px;">NAVIGATION</div>
+        <a class="navbtn" href="#">Home</a>
+        <a class="navbtn" href="#">About Me</a>
+        <a class="navbtn" href="#">My Projects</a>
+        <a class="navbtn" href="#">What's New</a>
+        <a class="navbtn" href="#">Cool Links</a>
+        <a class="navbtn" href="#">Guestbook</a>
+        <a class="navbtn" href="#">E-mail Me</a>
+      </div>
+
+      <div style="background: repeating-linear-gradient(45deg, #000000 0 8px, #ffd700 8px 16px); padding: 4px; border: 2px ridge #c0c0c0;">
+        <div style="background: #ffd700; color: #000000; font-family: Impact, 'Arial Black', Arial, sans-serif; font-size: 13px; letter-spacing: 1px; padding: 3px 4px; border: 1px solid #000000; text-align: center;">UNDER CONSTRUCTION</div>
+      </div>
+
+      <div style="background: #000060; border: 3px ridge #c0c0c0; padding: 8px; display: flex; flex-direction: column; align-items: center; gap: 6px; color: #ffffff; font-family: Arial, sans-serif; font-size: 11px; text-align: center;">
+        <span>Visitor number</span>
+        <div style="display: flex; gap: 1px; border: 2px inset #808080; padding: 2px; background: #333333;">
+          <div style="background: #000000; color: #ffffff; font-family: 'Courier New', monospace; font-weight: bold; font-size: 14px; padding: 0 3px;">0</div><div style="background: #000000; color: #ffffff; font-family: 'Courier New', monospace; font-weight: bold; font-size: 14px; padding: 0 3px;">0</div><div style="background: #000000; color: #ffffff; font-family: 'Courier New', monospace; font-weight: bold; font-size: 14px; padding: 0 3px;">0</div><div style="background: #000000; color: #ffffff; font-family: 'Courier New', monospace; font-weight: bold; font-size: 14px; padding: 0 3px;">3</div><div style="background: #000000; color: #ffffff; font-family: 'Courier New', monospace; font-weight: bold; font-size: 14px; padding: 0 3px;">4</div><div style="background: #000000; color: #ffffff; font-family: 'Courier New', monospace; font-weight: bold; font-size: 14px; padding: 0 3px;">7</div>
+        </div>
+        <span>since 09/04/2026</span>
+      </div>
+
+      <div style="background: #000060; border: 3px ridge #c0c0c0; padding: 8px; display: flex; flex-direction: column; align-items: center; gap: 6px; color: #ffffff; font-family: Arial, sans-serif; font-size: 11px; text-align: center;">
+        <svg width="40" height="30" viewBox="0 0 28 22" style="shape-rendering: crispEdges;"><rect x="1" y="3" width="26" height="16" fill="#ffffff" stroke="#808080" stroke-width="1"></rect><polygon points="1,3 14,13 27,3" fill="#e0e0e0" stroke="#808080" stroke-width="1"></polygon></svg>
+        <a href="#" style="font-weight: bold; font-size: 13px;">E-mail me!</a>
+        <span style="color: #c0c0c0;">[your e-mail]</span>
+      </div>
+
+      <div style="display: flex; flex-direction: column; gap: 6px; align-items: center;">
+        <div style="width: 88px; height: 31px; box-sizing: border-box; background: #000080; color: #ffffff; border: 1px solid #ffffff; font-family: Arial, sans-serif; font-size: 9px; font-weight: bold; line-height: 1.1; display: flex; flex-direction: column; align-items: center; justify-content: center;"><span>BEST VIEWED</span><span style="color: #ffff00; font-size: 11px;">800 x 600</span></div>
+        <div style="width: 88px; height: 31px; box-sizing: border-box; background: #ffd700; color: #000000; border: 2px solid #000000; font-family: Impact, 'Arial Black', Arial, sans-serif; font-size: 11px; line-height: 1.05; display: flex; flex-direction: column; align-items: center; justify-content: center;"><span>Y2K</span><span>COMPLIANT!</span></div>
+        <div style="width: 88px; height: 31px; box-sizing: border-box; background: #008000; color: #ffffff; border: 1px solid #ffffff; font-family: 'Courier New', monospace; font-size: 10px; font-weight: bold; line-height: 1.1; display: flex; flex-direction: column; align-items: center; justify-content: center;"><span>made with</span><span>NOTEPAD</span></div>
+      </div>
+    </div>
+
+    <div style="display: flex; flex-direction: column; gap: 14px; text-align: left;">
+      <div style="background: #000060; border: 4px ridge #c0c0c0; padding: 12px 16px 14px 16px; display: flex; flex-direction: column; gap: 8px;">
+        <div style="font-family: 'Comic Sans MS', 'Comic Sans', cursive; font-size: 24px; color: #ff9900; text-shadow: 2px 2px 0 #663300;">Hi!!! Welcome!!!</div>
+        <div style="color: #ffffff; font-size: 15px; line-height: 1.45;">I'm <b style="color: #ffff00;">Will</b> and I write software for fun. This is where I put the stuff I'm working on so other people can use it. Most of it comes with source code. If something doesn't work, <a href="#">e-mail me</a> and I'll try to fix it!</div>
+        <div style="color: #c0c0c0; font-family: Arial, sans-serif; font-size: 12px;"><span class="blink" style="background: #ff0000; color: #ffff00; font-size: 10px; font-weight: bold; padding: 1px 4px; border: 1px solid #ffff00;">NEW!</span> &nbsp;09/05/2026 - Redesigned the page. [project one] v1.2 is out!</div>
+      </div>
+
+      <div style="background: #000060; border: 4px ridge #c0c0c0; padding: 12px 16px 16px 16px; display: flex; flex-direction: column; gap: 10px;">
+        <div style="font-family: 'Comic Sans MS', 'Comic Sans', cursive; font-size: 26px; color: #00ff00; text-shadow: 2px 2px 0 #005500; text-align: center;">*** My Software Projects ***</div>
+
+        <div style="display: flex; flex-direction: column; gap: 8px;">
+          <div style="display: grid; grid-template-columns: 36px minmax(0, 1fr); gap: 10px; align-items: start; background: #000040; border: 2px inset #808080; padding: 8px 10px;">
+            <svg width="36" height="36" viewBox="0 0 16 16" style="shape-rendering: crispEdges;"><rect x="1" y="1" width="14" height="14" fill="#2040c0"></rect><rect x="4" y="1" width="8" height="5" fill="#e0e0e0"></rect><rect x="9" y="2" width="2" height="3" fill="#000000"></rect><rect x="3" y="9" width="10" height="6" fill="#ffffff"></rect><rect x="4" y="11" width="8" height="1" fill="#808080"></rect><rect x="4" y="13" width="6" height="1" fill="#808080"></rect></svg>
+            <div style="color: #ffffff; font-size: 14px; line-height: 1.4; display: flex; flex-direction: column; gap: 4px;">
+              <div style="display: flex; align-items: center; gap: 8px; flex-wrap: wrap;"><a href="#" style="font-weight: bold; font-size: 17px;">[project one]</a><span class="blink" style="background: #ff0000; color: #ffff00; font-family: Arial, sans-serif; font-size: 10px; font-weight: bold; padding: 1px 4px; border: 1px solid #ffff00;">UPDATED!</span></div>
+              <div>A little command line tool in C that does [thing]. Works on Win95/98 AND Linux!!</div>
+              <div style="display: flex; gap: 6px; align-items: center; flex-wrap: wrap;"><a class="btn95" href="#">Download</a><a class="btn95" href="#">Screenshot</a><a class="btn95" href="#">Source</a><span style="color: #c0c0c0; font-family: Arial, sans-serif; font-size: 11px;">v1.2 &middot; 42k</span></div>
+            </div>
+          </div>
+
+          <div style="display: grid; grid-template-columns: 36px minmax(0, 1fr); gap: 10px; align-items: start; background: #000040; border: 2px inset #808080; padding: 8px 10px;">
+            <svg width="36" height="36" viewBox="0 0 16 16" style="shape-rendering: crispEdges;"><rect x="3" y="6" width="9" height="7" fill="#ffffff"></rect><rect x="2" y="6" width="1" height="6" fill="#808080"></rect><rect x="12" y="6" width="1" height="6" fill="#808080"></rect><rect x="3" y="13" width="9" height="1" fill="#808080"></rect><rect x="13" y="8" width="2" height="3" fill="#ffffff"></rect><rect x="4" y="8" width="7" height="2" fill="#6b3a1a"></rect><rect x="5" y="1" width="1" height="3" fill="#c0c0c0"></rect><rect x="7" y="2" width="1" height="3" fill="#c0c0c0"></rect><rect x="9" y="1" width="1" height="3" fill="#c0c0c0"></rect></svg>
+            <div style="color: #ffffff; font-size: 14px; line-height: 1.4; display: flex; flex-direction: column; gap: 4px;">
+              <div style="display: flex; align-items: center; gap: 8px; flex-wrap: wrap;"><a href="#" style="font-weight: bold; font-size: 17px;">[project two]</a><span style="background: #ff8800; color: #000000; font-family: Arial, sans-serif; font-size: 10px; font-weight: bold; padding: 1px 4px; border: 1px solid #ffff00;">BETA</span></div>
+              <div>My first Java applet! Might take a minute on a 56k modem, please be patient :-)</div>
+              <div style="display: flex; gap: 6px; align-items: center; flex-wrap: wrap;"><a class="btn95" href="#">Run it!</a><a class="btn95" href="#">Screenshot</a><span style="color: #c0c0c0; font-family: Arial, sans-serif; font-size: 11px;">v0.8 beta &middot; 118k</span></div>
+            </div>
+          </div>
+
+          <div style="display: grid; grid-template-columns: 36px minmax(0, 1fr); gap: 10px; align-items: start; background: #000040; border: 2px inset #808080; padding: 8px 10px;">
+            <svg width="36" height="36" viewBox="0 0 16 16" style="shape-rendering: crispEdges;"><rect x="1" y="3" width="6" height="2" fill="#e8c040"></rect><rect x="1" y="5" width="14" height="9" fill="#e8c040"></rect><rect x="2" y="6" width="12" height="7" fill="#f8e080"></rect><rect x="4" y="2" width="5" height="6" fill="#ffffff"></rect><rect x="5" y="4" width="3" height="1" fill="#808080"></rect><rect x="5" y="6" width="3" height="1" fill="#808080"></rect></svg>
+            <div style="color: #ffffff; font-size: 14px; line-height: 1.4; display: flex; flex-direction: column; gap: 4px;">
+              <div style="display: flex; align-items: center; gap: 8px; flex-wrap: wrap;"><a href="#" style="font-weight: bold; font-size: 17px;">[project three]</a></div>
+              <div>A Perl CGI script that does [thing]. It runs the guestbook and counter on this page!</div>
+              <div style="display: flex; gap: 6px; align-items: center; flex-wrap: wrap;"><a class="btn95" href="#">Download</a><a class="btn95" href="#">Source</a><span style="color: #c0c0c0; font-family: Arial, sans-serif; font-size: 11px;">v0.9 &middot; 14k &middot; GPL</span></div>
+            </div>
+          </div>
+
+          <div style="display: grid; grid-template-columns: 36px minmax(0, 1fr); gap: 10px; align-items: start; background: #000040; border: 2px inset #808080; padding: 8px 10px;">
+            <svg width="36" height="36" viewBox="0 0 16 16" style="shape-rendering: crispEdges;"><rect x="2" y="2" width="4" height="4" fill="#c0c0c0"></rect><rect x="3" y="3" width="2" height="2" fill="#000040"></rect><rect x="5" y="5" width="2" height="2" fill="#c0c0c0"></rect><rect x="6" y="6" width="2" height="2" fill="#c0c0c0"></rect><rect x="7" y="7" width="2" height="2" fill="#c0c0c0"></rect><rect x="8" y="8" width="2" height="2" fill="#c0c0c0"></rect><rect x="9" y="9" width="2" height="2" fill="#c0c0c0"></rect><rect x="10" y="10" width="4" height="4" fill="#c0c0c0"></rect><rect x="11" y="11" width="2" height="2" fill="#000040"></rect></svg>
+            <div style="color: #ffffff; font-size: 14px; line-height: 1.4; display: flex; flex-direction: column; gap: 4px;">
+              <div style="display: flex; align-items: center; gap: 8px; flex-wrap: wrap;"><span style="font-weight: bold; font-size: 17px; color: #c0c0c0;">[project four]</span><span class="blink" style="color: #ff0000; font-weight: bold;">COMING SOON!!!</span></div>
+              <div>Top secret. Written in C++. It's [one word hint]. Check back soon!!</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div style="background: #000060; border: 4px ridge #c0c0c0; padding: 12px 16px 14px 16px; display: flex; flex-direction: column; gap: 8px;">
+        <div style="font-family: 'Comic Sans MS', 'Comic Sans', cursive; font-size: 24px; color: #ff66ff; text-shadow: 2px 2px 0 #660066;">Cool Links</div>
+        <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 6px 16px; color: #ffffff; font-size: 15px;">
+          <div style="display: flex; align-items: center; gap: 8px;"><svg width="14" height="14" viewBox="0 0 16 16" style="flex: none;"><circle cx="8" cy="8" r="7" fill="#3366ff" stroke="#ffffff" stroke-width="1"></circle><path d="M3 8 Q8 4 13 8 Q8 12 3 8Z M8 1 Q11 8 8 15 M8 1 Q5 8 8 15" fill="none" stroke="#00ff00" stroke-width="1"></path></svg><a href="#">[link one]</a></div>
+          <div style="display: flex; align-items: center; gap: 8px;"><svg width="14" height="14" viewBox="0 0 16 16" style="flex: none;"><circle cx="8" cy="8" r="7" fill="#3366ff" stroke="#ffffff" stroke-width="1"></circle><path d="M3 8 Q8 4 13 8 Q8 12 3 8Z M8 1 Q11 8 8 15 M8 1 Q5 8 8 15" fill="none" stroke="#00ff00" stroke-width="1"></path></svg><a href="#">[link two]</a></div>
+          <div style="display: flex; align-items: center; gap: 8px;"><svg width="14" height="14" viewBox="0 0 16 16" style="flex: none;"><circle cx="8" cy="8" r="7" fill="#3366ff" stroke="#ffffff" stroke-width="1"></circle><path d="M3 8 Q8 4 13 8 Q8 12 3 8Z M8 1 Q11 8 8 15 M8 1 Q5 8 8 15" fill="none" stroke="#00ff00" stroke-width="1"></path></svg><a href="#">[link three]</a></div>
+          <div style="display: flex; align-items: center; gap: 8px;"><svg width="14" height="14" viewBox="0 0 16 16" style="flex: none;"><circle cx="8" cy="8" r="7" fill="#3366ff" stroke="#ffffff" stroke-width="1"></circle><path d="M3 8 Q8 4 13 8 Q8 12 3 8Z M8 1 Q11 8 8 15 M8 1 Q5 8 8 15" fill="none" stroke="#00ff00" stroke-width="1"></path></svg><a href="#">[my friend's page]</a></div>
+        </div>
+      </div>
+
+      <div style="background: #c0c0c0; color: #000000; border: 3px outset #ffffff; padding: 8px 12px; font-family: Arial, Helvetica, sans-serif; font-size: 12px; display: flex; flex-direction: column; gap: 4px; text-align: center;">
+        <div>This <b>Software Nerds WebRing</b> site is owned by <a href="#" style="color: #0000ee;">Will</a>.</div>
+        <div>[ <a href="#" style="color: #0000ee;">Previous</a> | <a href="#" style="color: #0000ee;">Next</a> | <a href="#" style="color: #0000ee;">Random</a> | <a href="#" style="color: #0000ee;">List Sites</a> ]</div>
+      </div>
+    </div>
+  </div>
+
+  <div style="text-align: center; font-size: 13px; color: #c0c0c0; line-height: 1.5;">Best viewed with Netscape Navigator 4.0 or higher at 800x600. &nbsp;|&nbsp; Last updated: September 5, 2026<br>Copyright &copy; 2026 Will. All rights reserved!!! &nbsp;|&nbsp; <a href="#">Sign my Guestbook</a> &nbsp;|&nbsp; <a href="#">View my Guestbook</a></div>
+
+</div>
+</x-dc>
+</body>
+</html>

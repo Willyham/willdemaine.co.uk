@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <style>
+    body { margin: 0; background: #000000; color: #00ff00; font-family: 'Courier New', Courier, monospace; font-size: 14px; }
+    a { color: #33ff33; font-weight: bold; } a:visited { color: #33ff33; } a:hover { color: #000000; background: #33ff33; text-decoration: none; }
+    @keyframes cursor { 50% { opacity: 0; } }
+    .cursor { animation: cursor 0.9s step-end infinite; }
+  </style>
+</helmet>
+<div style="width: 800px; box-sizing: border-box; padding: 20px 28px 36px 28px; display: flex; flex-direction: column; gap: 18px; background: #000000;">
+
+  <div style="display: flex; justify-content: space-between; color: #008800; font-size: 12px;">
+    <span>[ ~will ]</span>
+    <span>last modified: 2026-09-04 03:17:44 GMT</span>
+  </div>
+
+  <pre style="margin: 0; color: #00ff00; font-family: 'Courier New', Courier, monospace; font-size: 14px; line-height: 1.15; text-shadow: 0 0 6px #00ff00;">
+ __      __  _____   _        _
+ \ \    / / |_   _| | |      | |
+  \ \/\/ /    | |   | |      | |
+   \_/\_/    _| |_  | |____  | |____
+            |_____| |______| |______|
+</pre>
+
+  <div style="line-height: 1.6;">&gt; welcome to my page. u are visitor #<span style="color: #ffffff;">001337</span>.<br>&gt; this is where i keep the stuff i'm hacking on.<br>&gt; everything is free. steal it. <span class="cursor" style="background: #00ff00; color: #000000;">&nbsp;</span></div>
+
+  <div style="border: 1px dashed #ff0000; color: #ff3333; padding: 6px 10px; font-size: 12px;">!!! WARNING: this site contains no frames, no flash, no cookies and no dancing babies. best viewed in the dark. !!!</div>
+
+  <div style="display: flex; flex-direction: column; gap: 2px;">
+    <div style="color: #ffffff; font-weight: bold; font-size: 15px;">Index of /~will/projects</div>
+    <div style="color: #008800;">- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</div>
+    <div style="display: grid; grid-template-columns: 56px 220px 150px 60px minmax(0, 1fr); gap: 2px 8px; line-height: 1.5;">
+      <div style="color: #008800;"></div><div style="color: #008800; text-decoration: underline;">Name</div><div style="color: #008800; text-decoration: underline;">Last modified</div><div style="color: #008800; text-decoration: underline;">Size</div><div style="color: #008800; text-decoration: underline;">Description</div>
+
+      <div style="color: #ffff00;">[DIR]</div><div><a href="#">../</a></div><div style="color: #aaaaaa;">04-Sep-2026 03:17</div><div style="color: #aaaaaa;">-</div><div style="color: #aaaaaa;">parent directory</div>
+      <div style="color: #ffff00;">[DIR]</div><div><a href="#">[project-one]/</a></div><div style="color: #aaaaaa;">04-Sep-2026 02:41</div><div style="color: #aaaaaa;">-</div><div style="color: #aaaaaa;">cli tool, C. win32 + linux</div>
+      <div style="color: #ffff00;">[DIR]</div><div><a href="#">[project-two]/</a></div><div style="color: #aaaaaa;">[date]</div><div style="color: #aaaaaa;">-</div><div style="color: #aaaaaa;">java applet. slow on 56k</div>
+      <div style="color: #00ffff;">[TGZ]</div><div><a href="#">[project-three].tar.gz</a></div><div style="color: #aaaaaa;">[date]</div><div style="color: #aaaaaa;">14k</div><div style="color: #aaaaaa;">perl cgi. runs this page's counter</div>
+      <div style="color: #00ffff;">[TGZ]</div><div><a href="#">[project-four]-0.1a.tar.gz</a></div><div style="color: #aaaaaa;">[date]</div><div style="color: #aaaaaa;">37k</div><div style="color: #ff3333;">ALPHA. will eat your data.</div>
+      <div style="color: #ff88ff;">[TXT]</div><div><a href="#">README.txt</a></div><div style="color: #aaaaaa;">04-Sep-2026 02:40</div><div style="color: #aaaaaa;">2k</div><div style="color: #aaaaaa;">read this first</div>
+      <div style="color: #ff88ff;">[TXT]</div><div><a href="#">TODO.txt</a></div><div style="color: #aaaaaa;">04-Sep-2026 02:40</div><div style="color: #aaaaaa;">1k</div><div style="color: #aaaaaa;">things that are broken</div>
+    </div>
+    <div style="color: #008800;">- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</div>
+  </div>
+
+  <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px 32px;">
+    <div style="display: flex; flex-direction: column; gap: 4px; line-height: 1.5;">
+      <div style="color: #ffffff; font-weight: bold;">$ cat status.txt</div>
+      <div><span style="color: #008800;">hacking on ..:</span> [project four]</div>
+      <div><span style="color: #008800;">box ........:</span> P2-350, 128mb, slackware</div>
+      <div><span style="color: #008800;">uptime .....:</span> 47 days, 6:12</div>
+      <div><span style="color: #008800;">editor .....:</span> vim. (don't start.)</div>
+      <div><span style="color: #008800;">irc ........:</span> will @ #[channel]</div>
+    </div>
+    <div style="display: flex; flex-direction: column; gap: 4px; line-height: 1.5;">
+      <div style="color: #ffffff; font-weight: bold;">$ cat links.txt</div>
+      <div>&gt; <a href="#">[link one]</a> <span style="color: #aaaaaa;">- [what it is]</span></div>
+      <div>&gt; <a href="#">[link two]</a> <span style="color: #aaaaaa;">- [what it is]</span></div>
+      <div>&gt; <a href="#">[link three]</a> <span style="color: #aaaaaa;">- [what it is]</span></div>
+      <div>&gt; <a href="#">[a friend's page]</a> <span style="color: #aaaaaa;">- [what it is]</span></div>
+    </div>
+  </div>
+
+  <div style="display: flex; align-items: center; gap: 10px; border: 1px solid #00ff00; padding: 8px 12px; width: fit-content;">
+    <svg width="20" height="16" viewBox="0 0 20 16" style="shape-rendering: crispEdges;"><rect x="0.5" y="0.5" width="19" height="15" fill="none" stroke="#00ff00" stroke-width="1"></rect><polygon points="1,1 10,9 19,1" fill="none" stroke="#00ff00" stroke-width="1"></polygon></svg>
+    <span>mail: <a href="#">will@[host]</a></span>
+    <span style="color: #008800;">|</span>
+    <span>pgp: <a href="#">0x[key id]</a></span>
+    <span style="color: #008800;">|</span>
+    <span><a href="#">guestbook</a></span>
+  </div>
+
+  <div style="color: #008800; font-size: 12px; line-height: 1.6;">this page is 4kb and validates. it was written in vi, uploaded by ftp, and served from a box under my desk.<br>(c) 2026 will. no rights reserved. <span style="color: #ffffff;">-- EOF --</span></div>
+
+</div>
+</x-dc>
+</body>
+</html>
